@@ -1,52 +1,44 @@
 <template>
-  <div>
-    <nuxt/>
-    <my-footer/>
+  <div id="wrapper">
+    <div class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion">
+      <my-sidemenu/>
+    </div>
+    <div id="content-wrapper" class="d-flex flex-column">
+      <my-header/>
+      <div id="content">
+        <div class="container-fluid">
+          <nuxt class="has-text-centered"/>
+        </div>
+      </div>
+      <footer class="sticky-footer bg-white">
+        <my-footer/>
+      </footer>
+
+    </div>
   </div>
 </template>
 
 <script>
+import MyHeader from '~/components/Header.vue'
 import MyFooter from '~/components/Footer.vue'
+import MySidemenu from '~/components/Sidemenu.vue'
 
 export default {
   components: {
-    MyFooter
+    MyFooter,
+    MyHeader,
+    MySidemenu
   }
 }
 </script>
 
 <style>
-.container
-{
-  margin: 0;
-  width: 100%;
-  padding: 60px 0;
-  text-align: center;
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
-
-.button, .button:visited
-{
-  display: inline-block;
-  color: black;
-  letter-spacing: 1px;
-  background-color: #fff;
-  border: 2px solid #000;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 15px 45px;
-}
-
-.button:hover, .button:focus
-{
-  color: #fff;
-  background-color: #000;
-}
-
-.title
-{
-  color: #000;
-  font-weight: 300;
-  font-size: 2.5em;
-  margin: 0;
+.siteContent {
+  flex: 1;
 }
 </style>

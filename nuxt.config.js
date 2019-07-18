@@ -10,36 +10,51 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        type: 'text/css',
+        href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
+      }
     ]
+  },
+  modules: [
+    ['bootstrap-vue/nuxt']
+  ],
+  postcss: {
+    plugins: {
+      'postcss-custom-properties': {
+        warnings: false
+      }
+    }
   },
   /*
   ** Global CSS
   */
-  css: ['~/assets/css/main.css'],
+  css: ['~/assets/css/sb-admin-2.css']
   /*
   ** Add axios globally
   */
-  build: {
-    vendor: ['axios'],
-    /*
-    ** Run ESLINT on save
-    */
-    extend (config, ctx) {
-      if (ctx.isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
-      }
-    }
-  },
-  router: {
-    middleware: 'i18n'
-  },
-  plugins: [
-    {src: '~plugins/i18n'}
-  ]
+//  build: {
+//    vendor: ['axios'],
+//    /*
+//    ** Run ESLINT on save
+//    */
+//    extend (config, ctx) {
+//      if (ctx.isClient) {
+//        config.module.rules.push({
+//          enforce: 'pre',
+//          test: /\.(js|vue)$/,
+//          loader: 'eslint-loader',
+//          exclude: /(node_modules)/
+//        })
+//      }
+//    }
+//  },
+//  router: {
+//    middleware: 'i18n'
+//  },
+//  plugins: [
+//    {src: '~plugins/i18n'}
+//  ]
 }

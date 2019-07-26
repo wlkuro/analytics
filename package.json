@@ -14,12 +14,19 @@
   "dependencies": {
     "@nuxtjs/bulma": "^1.2.4",
     "@nuxtjs/font-awesome": "^1.0.4",
+<<<<<<< HEAD
     "axios": "^0.19.0",
+=======
+    "axios": "0.18.0",
+>>>>>>> 6edfc938cd9b20ae6ce4065f8d67da831bf8789b
     "bootstrap-vue": "^2.0.0-rc.22",
     "cross-env": "^5.1.4",
     "express": "4.16.3",
     "font-awesome": "^4.7.0",
+<<<<<<< HEAD
     "fs": "0.0.1-security",
+=======
+>>>>>>> 6edfc938cd9b20ae6ce4065f8d67da831bf8789b
     "gentelella": "^1.4.0",
     "lodash.truncate": "^4.4.2",
     "nuxt": "1.4.0",

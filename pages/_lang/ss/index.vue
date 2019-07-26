@@ -12,42 +12,66 @@
             <h6 class="m-0 font-weight-bold text-danger">国内</h6>
           </div>
           <div class="card-body">
+<<<<<<< HEAD
             <a href="/ss/d?kyoten=spk" class="btn btn-danger btn-icon-split">
+=======
+            <a href="/ss/list_d?kyoten=spk" class="btn btn-danger btn-icon-split">
+>>>>>>> 6edfc938cd9b20ae6ce4065f8d67da831bf8789b
               <span class="icon text-white-50">
                 <i class="fas fa-arrow-right"></i>
               </span>
               <span class="text">北海道発</span>
             </a>
             <div class="my-2"></div>
+<<<<<<< HEAD
             <a href="/ss/d?kyoten=aoj" class="btn btn-danger btn-icon-split">
+=======
+            <a href="/ss/list_d?kyoten=aoj" class="btn btn-danger btn-icon-split">
+>>>>>>> 6edfc938cd9b20ae6ce4065f8d67da831bf8789b
               <span class="icon text-white-50">
                 <i class="fas fa-arrow-right"></i>
               </span>
               <span class="text">青森発</span>
             </a>
             <div class="my-2"></div>
+<<<<<<< HEAD
             <a href="/ss/d?kyoten=sdj" class="btn btn-danger btn-icon-split">
+=======
+            <a href="/ss/list_d?kyoten=sdj" class="btn btn-danger btn-icon-split">
+>>>>>>> 6edfc938cd9b20ae6ce4065f8d67da831bf8789b
               <span class="icon text-white-50">
                 <i class="fas fa-arrow-right"></i>
               </span>
               <span class="text">東北発</span>
             </a>
             <div class="my-2"></div>
+<<<<<<< HEAD
             <a href="/ss/d?kyoten=ibr" class="btn btn-danger btn-icon-split">
+=======
+            <a href="#" class="btn btn-danger btn-icon-split">
+>>>>>>> 6edfc938cd9b20ae6ce4065f8d67da831bf8789b
               <span class="icon text-white-50">
                 <i class="fas fa-arrow-right"></i>
               </span>
               <span class="text">北関東発</span>
             </a>
             <div class="my-2"></div>
+<<<<<<< HEAD
             <a href="/ss/d?kyoten=tyo" class="btn btn-danger btn-icon-split">
+=======
+            <a href="#" class="btn btn-danger btn-icon-split">
+>>>>>>> 6edfc938cd9b20ae6ce4065f8d67da831bf8789b
               <span class="icon text-white-50">
                 <i class="fas fa-arrow-right"></i>
               </span>
               <span class="text">関東発</span>
             </a>
             <div class="my-2"></div>
+<<<<<<< HEAD
             <a href="/ss/d?kyoten=kij" class="btn btn-danger btn-icon-split">
+=======
+            <a href="#" class="btn btn-danger btn-icon-split">
+>>>>>>> 6edfc938cd9b20ae6ce4065f8d67da831bf8789b
               <span class="icon text-white-50">
                 <i class="fas fa-arrow-right"></i>
               </span>
@@ -203,21 +227,33 @@
             <h6 class="m-0 font-weight-bold text-primary">海外</h6>
           </div>
           <div class="card-body">
+<<<<<<< HEAD
             <a href="/ss/i?kyoten=spk" class="btn btn-primary btn-icon-split">
+=======
+            <a href="/ss/list_i?kyoten=spk" class="btn btn-primary btn-icon-split">
+>>>>>>> 6edfc938cd9b20ae6ce4065f8d67da831bf8789b
               <span class="icon text-white-50">
                 <i class="fas fa-arrow-right"></i>
               </span>
               <span class="text">北海道発</span>
             </a>
             <div class="my-2"></div>
+<<<<<<< HEAD
             <a href="/ss/i?kyoten=aoj" class="btn btn-primary btn-icon-split">
+=======
+            <a href="/ss/list_i?kyoten=aoj" class="btn btn-primary btn-icon-split">
+>>>>>>> 6edfc938cd9b20ae6ce4065f8d67da831bf8789b
               <span class="icon text-white-50">
                 <i class="fas fa-arrow-right"></i>
               </span>
               <span class="text">青森発</span>
             </a>
             <div class="my-2"></div>
+<<<<<<< HEAD
             <a href="/ss/i?kyoten=adj" class="btn btn-primary btn-icon-split">
+=======
+            <a href="/ss/list_i?kyoten=adj" class="btn btn-primary btn-icon-split">
+>>>>>>> 6edfc938cd9b20ae6ce4065f8d67da831bf8789b
               <span class="icon text-white-50">
                 <i class="fas fa-arrow-right"></i>
               </span>

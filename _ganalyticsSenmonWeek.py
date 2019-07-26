@@ -70,7 +70,11 @@ if __name__ == '__main__':
     temp_data_arr = data_arr.groupby(['title','region']).agg({"pageviews": "sum"})
     data_arr = pd.merge(data_arr, temp_data_arr, on='title')
     data_arr = data_arr[data_arr['pagePath'].str.endswith('/')]
+<<<<<<< HEAD
     append_json_to_file(data_arr.to_json(orient='records',force_ascii=True),'/home/mac/nuxt-express-template/static/data/inter/week/'+args[1]+kyoten_id[x]+'.json')
+=======
+    append_json_to_file(data_arr.to_json(orient='records',force_ascii=True),'./static/data/inter/week/'+args[1]+kyoten_id[x]+'.json')
+>>>>>>> 6edfc938cd9b20ae6ce4065f8d67da831bf8789b
 
   analytics_arr_d = pd.DataFrame({},columns=['title','pageviews','pagePath','region'],dtype=str)
   for z in range(len(path_d)):
@@ -82,6 +86,10 @@ if __name__ == '__main__':
     temp_data_arr = data_arr.groupby(['title','region']).agg({"pageviews": "sum"})
     data_arr = pd.merge(data_arr, temp_data_arr, on='title')
     data_arr = data_arr[data_arr['pagePath'].str.endswith('/')]
+<<<<<<< HEAD
     append_json_to_file(data_arr.to_json(orient='records',force_ascii=True),'/home/mac/nuxt-express-template/static/data/dome/week/'+args[1]+kyoten_id[x]+'.json')
+=======
+    append_json_to_file(data_arr.to_json(orient='records',force_ascii=True),'./static/data/dome/week/'+args[1]+kyoten_id[x]+'.json')
+>>>>>>> 6edfc938cd9b20ae6ce4065f8d67da831bf8789b
       
       

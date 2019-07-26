@@ -49,6 +49,7 @@ module.exports = {
       }
     }
   },
+<<<<<<< HEAD
   env: {
     jsonList: jsonList,
   },
@@ -70,6 +71,15 @@ module.exports = {
   router: {
     middleware: 'auth'
   }
+=======
+  /*
+  ** Global CSS
+  */
+  css: ['~/assets/css/sb-admin-2.css']
+  /*
+  ** Add axios globally
+  */
+>>>>>>> 6edfc938cd9b20ae6ce4065f8d67da831bf8789b
 //  build: {
 //    vendor: ['axios'],
 //    /*
